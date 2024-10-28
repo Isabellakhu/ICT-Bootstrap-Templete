@@ -1,0 +1,42 @@
+
+/* Greeting Card Styles */
+.greeting-card {
+    background-color: #eaf2fa; /* Light background for contrast */
+    border-radius: 15px; /* Rounded corners for the greeting card */
+}
+
+/* Feature Card Styles */
+.feature-card {
+    position: relative;
+    margin-top: 60px; /* Increased margin to allow more space for icon overlap */
+    padding-top: 50px; /* Padding to push text down */
+    background-color: #e3f2fd; /* Very light blue color */
+    border: none; /* Remove default border */
+}
+
+/* Icon Box Styles */
+.icon-box {
+    width: 70px; /* Set a fixed width */
+    height: 70px; /* Set a fixed height */
+    display: flex;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    border-radius: 15%; /* Make the box circular */
+    position: absolute; /* Position it relative to the card */
+    top: -35px; /* Adjust to overlap the card */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center adjustment */
+}
+
+/* Text Styles inside Feature Cards */
+.feature-card h3 {
+    margin-top: 20px; /* Space between icon and title */
+    font-size: 1.5rem; /* Size of the title */
+}
+
+.feature-card p {
+    margin-top: 10px; /* Space between title and description */
+    font-size: 1rem; /* Size of the description */
+    color: #6c757d; /* Optional: muted text color */
+}
+
